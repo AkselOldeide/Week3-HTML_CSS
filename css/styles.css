@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(67, 67, 67);
+}
+
+ul li{
+    color: black;
+    transition-duration: 150ms;
+    font-family: fantasy    ;
+}
+
+ul li:hover{
+    font-size: larger;
+    text-shadow: 4 4 4;
+}
+
+ul li:nth-child(1):hover{
+    color: rgb(255, 0, 0);
+}
+ul li:nth-child(2):hover{
+    color: rgb(255, 136, 0)
+}
+ul li:nth-child(3):hover{
+    color: rgb(255, 230, 0);   
+}
+ul li:nth-child(5):hover{
+    color: rgb(166, 255, 0);   
+}
+ul li:nth-child(6):hover{
+    color: rgb(0, 255, 13);   
+}
+ul li:nth-child(7):hover{
+    color: rgb(0, 217, 255);   
+}
+ul li:nth-child(8):hover{
+    color: rgb(0, 81, 255);   
+}
+ul li:nth-child(9):hover{
+    color: rgb(140, 0, 255);   
+}
+ul li:nth-child(10):hover{
+    color: rgb(255, 0, 170);   
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul li::before{
+    content: "👊";
+}
+
+h1::first-letter{
+    font-size: 72px;
+}
